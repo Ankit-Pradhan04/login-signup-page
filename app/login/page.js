@@ -29,13 +29,13 @@ export default function Login() {
       alert('Invalid username or password');
     }
   };
-~
+
   const handleSignupClick = (e) => {
     e.preventDefault();
     router.push("signup");
   }
   
-    
+
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };

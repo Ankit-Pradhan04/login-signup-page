@@ -24,7 +24,7 @@ export default function Login() {
     const storedUsername = Cookies.get('username');
     const storedPassword = Cookies.get('password');
     if (username === storedUsername && password === storedPassword) {
-      router.push('/');
+      router.push('/home');
     } else {
       alert('Invalid username or password');
     }

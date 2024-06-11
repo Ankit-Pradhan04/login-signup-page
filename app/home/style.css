@@ -11,7 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     color: white;
-    background: url("./img3.jpg") no-repeat;
+    background: url("../img3.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }

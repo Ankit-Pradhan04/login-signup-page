@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background: url("./img3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.btn {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #B7C9E2;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnContainer{
+    display: flex;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .outer {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .outer h1 {
+        font-size: 1.75rem;
+    }
+
+    .inputBox {
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    .inputBox input {
+        padding: 0 15px;
+    }
+
+    .i {
+        font-size: 18px;
+    }
+
+    .outer .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .outer .signup {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .outer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .outer h1 {
+        font-size: 24px;
+    }
+
+    .inputBox {
+        height: 40px;
+        margin: 15px 0;
+    }
+
+    .inputBox input {
+        padding: 0 10px;
+    }
+
+    .i {
+        font-size: 16px;
+    }
+
+    .outer .btn {
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .outer .signup {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+}
